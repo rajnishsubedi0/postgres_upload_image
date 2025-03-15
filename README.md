@@ -1,6 +1,6 @@
 # Upload image to postgres and fetch image using actix-web 
 * First of all create database named <i>testt</i> in postgres database.
-* After that create <i>images<i> named table with following field using this command.
+* After that create <i><color="blue">images</i></color> named table with following field using this command.
 ```
 CREATE TABLE images (
     id SERIAL PRIMARY KEY,
@@ -13,7 +13,7 @@ curl -X POST -F "file=@/home/rkant/Downloads/Logo.png" http://127.0.0.1:8080/upl
 ```
 Now image has been uploaded to the database
 
-# Fetching imamge from postgres
+# Fetching image from postgres
 * To fetch data from database enter following command
 ```
 curl -X GET http://127.0.0.1:8080/upload --output output.jpg
