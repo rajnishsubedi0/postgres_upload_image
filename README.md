@@ -1,6 +1,6 @@
 # Upload image to postgres and fetch image using actix-web 
-* First of all create database named <i>testt</i> in postgres database.
-* After that create <i>images</i> named table with following field using this command.
+* First of all create database named ```testt``` in postgres database.
+* After that create ```images``` named table with following field using this command.
 ```
 CREATE TABLE images (
     id SERIAL PRIMARY KEY,
