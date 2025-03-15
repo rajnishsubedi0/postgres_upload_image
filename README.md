@@ -18,7 +18,7 @@ Now image has been uploaded to the database
 ```
 curl -X GET http://127.0.0.1:8080/upload --output output.jpg
 ```
-or enter directly get image in browser by following command
+or get image directly in browser with following url
 ```
 http://127.0.0.1:8080/upload
 ```
